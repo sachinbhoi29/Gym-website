@@ -1,0 +1,127 @@
+
+    /* CSS Reset */
+
+    .left{
+        color: white;
+        display: inline-block;
+        position: absolute;
+        width: 120px;
+        line-height: 20px;
+        left: 5px;
+        top: 10px;
+    }
+    .center{
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        display: block;
+        width: 39.33%;
+        padding: 0px;
+        margin: 20px auto;
+    }
+    .right{
+        color: white;
+        display: inline-block;
+        position: absolute;
+        right: 32px;
+        top: 20px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,.navbar li a.active{
+        color: grey;
+        text-decoration: underline;
+    }
+    .left img{
+        width: 100px;
+        height: 100px;
+        filter: invert(100%);
+    }
+    .left div{
+        width: auto;
+        text-align: center ;
+        font-size: 20px;
+        
+    }
+    .btn{
+        margin: 15px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+
+    .container{
+
+        margin: 120px 20px auto;
+        text-align: center;
+        padding: 100px 70px;
+        width: 80%;
+        color: white;
+
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 850px;
+        padding: 6px;
+        border: 2px solid rgb(245, 209, 209);
+        margin: 5px auto;
+        font-size: 21px;
+        border-radius: 12px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 62%;
+        margin: 24px auto;
+        padding: 5px 50px;
+    }
+
+    .right .btn a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+    /* about us  */
+    .container1{
+        margin-top: 150px;
+    }
+
+    .about_us_heading{
+        color: white;
+        margin-top: 0px;
+        margin-left: 150px;
+        padding: 0px;
+
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    .about_us_body{
+        font-size: 20px;
+        margin: 2px 150px;
+        width: 70%;
+    }
+        
