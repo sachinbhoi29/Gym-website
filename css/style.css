@@ -106,7 +106,7 @@
 
     /* about us  */
     .container1{
-        margin-top: 150px;
+        margin-top: 0px;
     }
 
     .about_us_heading{
@@ -124,4 +124,40 @@
         margin: 2px 150px;
         width: 70%;
     }
+
+    .container2{
+        margin-top: 150px;
+        margin-right: 200px;
+    }
         
+    .form-row{
+        font-size: 20px;
+        
+    }
+    .form-group{
+        font-size: 20px;
+    }
+
+    .form-control{
+        margin: 20px -350px;
+        text-align: left;
+    }
+
+    .form_name{
+        margin: 330px;
+        padding: 20px;
+        color: white;
+        font-size: larger;
+        /* border: 2px solid red; */
+    }
+
+    .btn-primary{
+        margin: 20px 350px;
+    }
+    .state{
+        margin: 100px 330px;
+    }
+
+    input[type="text"] {  
+        text-align: left; 
+    } 
